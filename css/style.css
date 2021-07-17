@@ -17,3 +17,26 @@ html
     align-items: center;
 }
 
+.background-section-one
+{
+    background-image: url(../assets/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-section-two
+{
+    background-image: url(../assets/background2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer
+{
+    height: 200px;
+    text-align: center;
+    background-color:#000;
+    color: #fff;
+}
