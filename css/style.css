@@ -17,12 +17,6 @@ html
     align-items: center;
 }
 
-.blackfriday-logo
-{
-    background-attachment: fixed;
-    background-size: contain;
-    background-repeat: no-repeat;
-
 .background-section-one
 {
     background-image: url(../assets/background.jpg);
@@ -59,9 +53,31 @@ input
     color: #fff;
 }
 
+input[type=text]:focus 
+{
+    background-color: lightblue;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  width: 50%;
+  background-color: #000;
+  border: none;
+  color: #fff;
+  padding: 4px 32px;
+  text-decoration: none;
+  margin: 4px 100px;
+  cursor: pointer;
+}
+
 form
 {
     display: grid;
+}
+
+subscribe-text
+{
+    color: #000;
+    font-size: 1000;
 }
 
 footer

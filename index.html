@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
     <head>
-        <title>Black Friday</title>
+        <title lang="en">Black Friday</title>
         <meta charset = "UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name= "description" content= "Landing Page - Desafio Gama Academy"/>
@@ -13,16 +13,17 @@
     <body>
         <main role="main">            
             <section class="section-container background-section-one" role="img">
-                <img src="assets/placeholder-logo.png" alt="Logo">
+                <img src="assets/logo-black-friday.png" alt="Logo" style="width:50%;">
             </section>
     
             <section class="section-container background-section-two">
                 <div class="card-container">
+                    <p id="subscribe-text">Se cadastre aqui para receber todas as promoções por e-mail!</p>
                     <div id="content">
                         <form id="form" role="form">
-                            <input type="text" placeholder="Nome" id="nome" aria-level="Insira seu nome aqui">
-                            <input type="text" placeholder="E-mail" id="email" aria-level="Insira seu e-mail aqui">
-                            <input type="submit" value="Enviar">
+                            <input type="text" placeholder="Nome" id="nome" aria-label="Insira seu nome aqui" role="textbox">
+                            <input type="text" placeholder="E-mail" id="email" aria-label="Insira seu e-mail aqui" role="textbox">
+                            <input type="submit" value="Enviar" aria-label="Enviar informações">
                         </form>
                     </div>
                 </div>
