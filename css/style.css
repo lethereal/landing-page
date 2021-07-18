@@ -17,6 +17,12 @@ html
     align-items: center;
 }
 
+.blackfriday-logo
+{
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 .background-section-one
 {
     background-image: url(../assets/background.jpg);
