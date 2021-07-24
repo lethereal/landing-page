@@ -13,6 +13,7 @@ html
     height: 100vh;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -71,10 +72,12 @@ input[type=button], input[type=submit], input[type=reset] {
 
 .texto-intro
 {
+    font-family: 'Calibri', monospace;
+    font-weight: 550;
     color: #fff;
     text-align: center;
     margin: 50px;
-    font-size: 5vh;
+    font-size: 150%;
 }
 
 form
@@ -84,13 +87,17 @@ form
 
 .subscribe-text
 {
+    font-family: 'Calibri monospace', Calibri;
+    font-weight: 500;
     color: #000;
-    font-size: 2vh;
-    margin: 20px;
+    font-size: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 footer
 {
+    font-family: 'Times New Roman', Times, serif;
     height: 150px;
     padding: 25px;
     text-align: center;
