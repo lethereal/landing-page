@@ -36,19 +36,23 @@ html
 
 .card-container
 {
+    display: flex;
+    flex-wrap: wrap;
     background: #fff;
     border-radius: 10px;
     padding: 25px;
-    max-width: 450px;
+    max-width: 90%;
+    width: 80%;
     display: grid;
 }
 
 input
 {
-    width: 100%;
+    width: 35vh;
     height: 30px;
     margin-bottom: 10px;
     text-align: center;
+    justify-content: space-around;
     border-radius: 12px;
     background: #000;
     color: #fff;
@@ -56,7 +60,11 @@ input
 
 input[type=text]:focus 
 {
-    background-color: lightblue;
+    font-family: 'Calibri', monospace;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
@@ -64,9 +72,10 @@ input[type=button], input[type=submit], input[type=reset] {
   background-color: #000;
   border: none;
   color: #fff;
-  padding: 4px 32px;
   text-decoration: none;
-  margin: 4px 110px;
+  justify-content: center;
+  text-align: center;
+  margin: 2px 9vh;
   cursor: pointer;
 }
 
@@ -83,6 +92,7 @@ input[type=button], input[type=submit], input[type=reset] {
 form
 {
     display: grid;
+    justify-content: center;
 }
 
 .subscribe-text
@@ -93,6 +103,7 @@ form
     font-size: 100%;
     margin-top: 20px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 footer
