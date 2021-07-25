@@ -48,7 +48,7 @@ html
 
 input
 {
-    width: 35vh;
+    width: 45vh;
     height: 30px;
     margin-bottom: 10px;
     text-align: center;
@@ -75,7 +75,7 @@ input[type=button], input[type=submit], input[type=reset] {
   text-decoration: none;
   justify-content: center;
   text-align: center;
-  margin: 2px 9vh;
+  margin: 2px 11vh;
   cursor: pointer;
 }
 
